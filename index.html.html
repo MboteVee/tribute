@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>An Expression of Gratitude</title>
+  <style>
+    /* Basic Reset & Layout */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      line-height: 1.7;
+      background-color: #f5f7fa;
+      color: #2c3e50;
+      padding: 20px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #34495e;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #3498db;
+      text-decoration: underline;
+    }
+
+    /* Main Container */
+    .tribute-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+      color: #1a252f;
+    }
+
+    /* Image Styling */
+    .tribute-img {
+      display: block;
+      margin: 0 auto 2rem;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Paragraphs & Links */
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+      text-align: justify;
+    }
+
+    .tribute-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #2980b9;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .tribute-link:hover {
+      text-decoration: underline;
+      color: #1a5276;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #7f8c8d;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 600px) {
+      .tribute-container { padding: 1.5rem; }
+      h1 { font-size: 1.8rem; }
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#memories">Memories</a>
+    <a href="#Gallery">Photo Gallery</a>
+    
+  </nav>
+
+  <!-- Main Content -->
+  <main class="tribute-container">
+    <h1>An Expression of Gratitude</h1>
+    
+    <section id="Gallery"><!-- Replace the src with your image path or URL -->
+    <img src="https://mbotevee.github.io/Gallery/IMG-20251115-WA0093.jpg" alt="A cherished photo of Claire" class="tribute-img">
+    
+    <img src="https://mbotevee.github.io/Gallery/IMG-20251121-WA0030.jpg" alt="A cherished photo of Claire" class="tribute-img">
+    <img src="https://mbotevee.github.io/Gallery/IMG-20251115-WA0094.jpg" alt="A cherished photo of Claire" class="tribute-img">
+    </section>
+    
+    
+
+    <section id="memories">
+      <p>
+        Dearest Vielina, as I sit down to write this, my heart is filled with a profound sense of gratitude for the time we shared together. Your presence in my life was a gift that I will forever cherish. From the moment we met, you brought light and joy into my world, and I am endlessly thankful for the memories we created.
+      </p>
+
+      <p>
+        They taught me  and still teach me the value of [quality/value they exemplified], and their spirit continues to guide me on days when I need strength the most. Though they are no longer with us in person, their presence lives on in the stories we share, the lessons they left behind, and the love that never fades.
+      </p>
+
+      
+    </section>
+  </main>
+
+  <footer>
+    <p> Written with love by IVY &copy; <span id="year"></span></p>
+  </footer>
+
+  <script>
+    // Auto-update copyright year
+    document.getElementById('2026').textContent = new Date(9TH).getFullYear();
+  </script>
+
+</body>
+</html>
